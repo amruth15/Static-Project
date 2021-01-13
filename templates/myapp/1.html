@@ -1,0 +1,26 @@
+<html>
+{%load static%}
+<head>
+  <link rel="stylesheet" href="{% static "css/1.css" %}"/>
+</head>
+<body bgcolor="cd9777">
+  <center><h1><u>{{name}}'s Favourites</u></h1></center>
+  <div>
+    <h2>Player:{{player}}</h2>
+    <h3><a href="https://en.wikipedia.org/wiki/MS_Dhoni">Know More</a></h3>
+    <img src="{% static "images/dhoni.jpg"%}">
+  </div>
+  <br>
+  <div>
+    <h2>Animal:{{animal}}</h2>
+    <h3><a href="https://en.wikipedia.org/wiki/Lion">Know More</a></h3>
+    <img src="{% static "images/lion.jpg"%}">
+  </div>
+  <br>
+  <div>
+    <h2>Sub:{{subject}}</h2>
+    <h3><a href="https://www.python.org/">Know More</a></h3>
+    <img src="{% static "images/python.jpg"%}">
+  </div>
+</body>
+</html>
